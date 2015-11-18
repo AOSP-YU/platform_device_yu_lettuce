@@ -18,7 +18,7 @@
 ifneq ($(LETTUCE_32_BIT),true)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 endif
-$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 # Inherit from lettuce device
 $(call inherit-product, device/yu/lettuce/device.mk)
