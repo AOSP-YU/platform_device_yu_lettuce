@@ -94,7 +94,11 @@
          config to 7. -->
     <integer name="config_deviceHardwareKeys">64</integer>
 
-    <!-- Whether a software navigation bar should be shown. NOTE: in the future this may be
+    <!-- Whether a software 
+navigation bar should be shown. NOTE: in the future this may be
                   autodetected from the Configuration. -->
     <bool name="config_showNavigationBar">true</bool>
+
+    <!--doze-->
+    <bool name="config_enableAutoPowerModes">true</bool>
 </resources>
