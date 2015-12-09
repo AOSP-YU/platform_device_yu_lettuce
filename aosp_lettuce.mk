@@ -14,6 +14,7 @@
 # limitations under the License.
 #
 $(call inherit-product, device/yu/lettuce/full_lettuce.mk)
+$(call inherit-product, vendor/aosp/common.mk)
 
 PRODUCT_NAME := aosp_lettuce
 
